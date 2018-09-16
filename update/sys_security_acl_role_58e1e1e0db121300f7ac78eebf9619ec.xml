@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-22 15:10:52</sys_created_on>
+        <sys_id>58e1e1e0db121300f7ac78eebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_74047_centene_stockdata.x_74047_centene.stockdata_user</sys_name>
+        <sys_package display_value="CENTENE" source="x_74047_centene">428169a0db121300f7ac78eebf961935</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CENTENE">428169a0db121300f7ac78eebf961935</sys_scope>
+        <sys_security_acl display_value="x_74047_centene_stockdata">50e1e1e0db121300f7ac78eebf9619ea</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_58e1e1e0db121300f7ac78eebf9619ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-22 15:10:52</sys_updated_on>
+        <sys_user_role display_value="x_74047_centene.stockdata_user" name="x_74047_centene.stockdata_user">00e1e1e0db121300f7ac78eebf9619b5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
