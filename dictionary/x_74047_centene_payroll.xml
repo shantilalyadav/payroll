@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="payroll" max_length="40" name="x_74047_centene_payroll" type="collection">
+        <element label="basic" max_length="40" name="basic" type="float"/>
+        <element label="Ename" max_length="32" name="ename" reference="sys_user" type="reference"/>
+        <element label="hra" max_length="40" name="hra" type="float"/>
+        <element label="medical" max_length="40" name="medical" type="float"/>
+        <element label="net" max_length="40" name="net" type="float"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="pf" max_length="40" name="pf" type="float"/>
+        <element label="Total" max_length="40" name="total" type="float"/>
+        <index name="index">
+            <element name="ename"/>
+        </index>
+    </element>
+</database>
